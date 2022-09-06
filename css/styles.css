@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+  font-family: 'Merriweather', serif;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr
+{
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+/* Containers*/
+
+.upperMenu {
+  background-color: lightblue;
+  margin: 0;
+  position: relative;
+  height: 80px;
+}
+
+.topContainer {
+  background-color: lightblue;
+  position: relative;
+  text-align: center;
+}
+
+.middleContainer {
+  background-color: lightpink;
+  position: relative;
+}
+
+.bottomContainer {
+  background-color: lightgray;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+/* Website Main Stuff*/
+
+.shortName {
+  font-size: 70px;
+  width: 20%;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+.shortDescription {
+  font-size: 20px;
+}
+
+
+
+/* Images and Icons*/
+
+.profile_pic
+{
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+}
+
+.miniProfilePic {
+  margin: 10px 0 0 10px;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.icons {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.topCloud {
+ position: absolute;
+ right: 340px;
+ bottom: 415px;
+}
+
+.bottomCloud {
+  position: absolute;
+}
+
+.twitter {
+  top: 10px;
+  right: 10px;
+}
+
+.website {
+  top:10px;
+  right: 60px;
+}
+
+.linkedin {
+  top: 10px;
+  right: 110px;
+}
