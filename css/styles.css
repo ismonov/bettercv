@@ -1,90 +1,114 @@
 body {
-  margin: 0;
-  background-color: lightblue;
+  background-color: #F9F9F9;
+  color: #A084CA;
   font-family: 'Merriweather', serif;
+  margin: 0;
   text-align: center;
 }
 
+h1 {
+  color: #645CAA;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  margin: 100px auto 0 auto;
+}
 
 h2 {
+  color: #645CAA;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
+  color: #A084CA;
   font-family: 'Montserrat', sans-serif;
+
 }
+
 
 hr
 {
-  border-color: grey;
+  border-color: #645CAA;
   border-style: dotted none none;
   border-width: 5px;
-  width: 5%;
+  margin: 75px auto;
+  width: 7%;
 }
 
 /* Containers*/
 
-.upperMenu {
-  background-color: lightblue;
-  margin: 0;
-  position: relative;
-  height: 80px;
+.contacts {
+  color: #645CAA;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
+.contacts:hover {
+  color: #F9F9F9;
+  text-decoration: underline;
+}
+
+.copyright{
+  color: #F9F9F9;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+
 .topContainer {
-  background-color: lightblue;
+  background-color: #F9F9F9;
   position: relative;
   text-align: center;
 }
 
 .middleContainer {
+  margin: 100px 0 100px 0;
 }
 
 .bottomContainer {
+  background-color:#EBC7E8;
+  text-align: center;
+  padding: 40px 0 15px;
 }
 
 /* Website Main Stuff*/
 
-.shortName {
-  font-size: 70px;
-  width: 20%;
-  margin: 0 auto 0 auto;
-  font-family: 'Sacramento', cursive;
+.skillRow {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
-.shortDescription {
+.bio {
   font-size: 20px;
+  width: 35%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
 }
 
-
+.contactSection {
+  margin: 40px auto 60px;
+  width: 40%;
+}
 
 /* Images and Icons*/
 
 .profile_pic
 {
   border-radius: 100%;
-  height: 180px;
-  width: 180px;
+  height: 11.25rem;
+  width: 11.25rem;
   margin-top: 20px;
-}
-
-.miniProfilePic {
-  margin: 10px 90% 0 0;
-  border-radius: 100%;
-  height: 60px;
-  width: 60px;
-}
-
-.icons {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-
 }
 
 .topCloud {
  position: absolute;
- margin: 100px 0 0 200px;
+ margin: 45px 0 0 350px;
 }
 
 .bottomCloud {
@@ -92,24 +116,43 @@ hr
   margin: 40px 60px 0 0;
 }
 
-.twitter {
-  top: 10px;
-  right: 10px;
-  position: absolute;
+.computer {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
 }
 
-.website {
-  top:10px;
-  right: 60px;
-  position: absolute;
+.design {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
 }
 
-.linkedin {
-  top: 10px;
-  right: 110px;
-  position: absolute;
+.btn {
+  background: #BFACE0;
+  background-image: -webkit-linear-gradient(top, #BFACE0, #EBC7E8);
+  background-image: -moz-linear-gradient(top, #BFACE0, #EBC7E8);
+  background-image: -ms-linear-gradient(top, #BFACE0, #EBC7E8);
+  background-image: -o-linear-gradient(top, #BFACE0, #EBC7E8);
+  background-image: linear-gradient(to bottom, #BFACE0, #EBC7E8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  margin: 0 15px 0 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.webDev {
-  border-radius: 100%;
+.btn:hover {
+  background: #645CAA;
+  background-image: -webkit-linear-gradient(top, #645CAA, #A084CA);
+  background-image: -moz-linear-gradient(top, #645CAA, #A084CA);
+  background-image: -ms-linear-gradient(top, #645CAA, #A084CA);
+  background-image: -o-linear-gradient(top, #645CAA, #A084CA);
+  background-image: linear-gradient(to bottom, #645CAA, #A084CA);
+  text-decoration: none;
 }
